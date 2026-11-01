@@ -1,3 +1,6 @@
+// script by DeepSeek V4.1 Flash Free.
+// script for Bugforge room Relaybox Lab variant: relaybox-004
+
 function c(type,d){try{fetch('/collect',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({type:type},d||{}))})}catch(e){}}
 c('page-load',{href:location.href,origin:location.origin,ref:document.referrer});
 document.getElementById('connect').onclick=()=>{
